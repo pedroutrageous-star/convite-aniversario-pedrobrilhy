@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'VT323', monospace;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   border-radius: 0 !important; /* Mantém todas as bordas retas */
 }
 
 body {
-  /* Fundo Off-White com Mancha Rosa Blurada estilo Aura / Mesh Gradient */
+  /* Fundo Off-White com Mancha Rosa Blurada estilo Aura */
   background-color: #f6f5f8;
   background-image: 
     radial-gradient(ellipse 70% 50% at 50% 45%, rgba(255, 105, 210, 0.65) 0%, rgba(255, 160, 225, 0.35) 45%, rgba(246, 245, 248, 0) 100%),
@@ -27,7 +27,7 @@ body {
 .card {
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   border: 3px solid #ff99c8;
   max-width: 480px;
@@ -38,18 +38,18 @@ body {
 }
 
 .logo-img {
-  max-width: 90%;
+  max-width: 85%;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   filter: drop-shadow(0px 4px 6px rgba(255, 51, 133, 0.2));
 }
 
 .subtitle {
-  color: #333;
-  font-size: 1.5rem;
-  line-height: 1.25;
+  color: #4a4a4a;
+  font-size: 0.95rem;
+  line-height: 1.6;
   margin-bottom: 25px;
-  letter-spacing: 0.5px;
+  font-weight: 500;
 }
 
 /* Caixa do Contador em Azul Bebê */
@@ -61,7 +61,10 @@ body {
 }
 
 .section-label {
-  font-size: 1.6rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: #0284c7;
   margin-bottom: 8px;
 }
@@ -73,13 +76,16 @@ body {
 
 .time-box span {
   display: block;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+  font-weight: 800;
   color: #ff3385;
 }
 
 .time-box label {
-  font-size: 1.3rem;
+  font-size: 0.75rem;
+  font-weight: 700;
   color: #0369a1;
+  text-transform: uppercase;
 }
 
 /* Caixa Quando e Onde em Rosa Claro */
@@ -93,18 +99,22 @@ body {
 .detail-item {
   background: #ffe5ec;
   border: 2px solid #ffb3c6;
-  padding: 12px 16px;
+  padding: 14px 16px;
   text-align: center;
 }
 
 .detail-item strong {
   display: block;
-  font-size: 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   color: #ff0054;
+  margin-bottom: 2px;
 }
 
 .detail-item p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
   color: #590d22;
 }
 
@@ -117,8 +127,10 @@ body {
 
 .btn {
   display: block;
-  padding: 12px;
-  font-size: 1.6rem;
+  padding: 14px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   text-decoration: none;
   transition: all 0.2s ease;
 }
