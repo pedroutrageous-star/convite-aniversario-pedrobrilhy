@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniversário no Paralelo Pub</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonte moderna do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main class="card">
+    <header class="header">
+      <span class="tag">Celebração de Aniversário</span>
+      <h1>Mais um ano de vida! 🍻</h1>
+      <p class="subtitle">Sem bolo, sem parabéns, apenas bons drinks, comida boa e ótimas companhias.</p>
+    </header>
+
+    <!-- Contador Regressivo -->
+    <section class="countdown-section">
+      <p class="section-label">Faltam apenas:</p>
+      <div id="countdown" class="countdown-grid">
+        <div class="time-box"><span id="days">00</span><label>dias</label></div>
+        <div class="time-box"><span id="hours">00</span><label>horas</label></div>
+        <div class="time-box"><span id="minutes">00</span><label>min</label></div>
+        <div class="time-box"><span id="seconds">00</span><label>seg</label></div>
+      </div>
+    </section>
+
+    <!-- Detalhes do Evento -->
+    <section class="details-section">
+      <div class="detail-item">
+        <span class="icon">📅</span>
+        <div>
+          <strong>Data & Horário</strong>
+          <p>01 de Outubro de 2026 às 19:00h</p>
+        </div>
+      </div>
+
+      <div class="detail-item">
+        <span class="icon">📍</span>
+        <div>
+          <strong>Local</strong>
+          <p>Paralelo Pub</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Botões de Ação -->
+    <footer class="actions">
+      <!-- Substitua o 5500000000000 pelo seu número de WhatsApp com DDD -->
+      <a href="https://wa.me/5500000000000?text=Com%20certeza%20estarei%20lá%20para%20brindar!" target="_blank" class="btn btn-primary">
+        Confirmar Presença (WhatsApp)
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Paralelo+Pub" target="_blank" class="btn btn-secondary">
+        Ver Local no Mapa
+      </a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
